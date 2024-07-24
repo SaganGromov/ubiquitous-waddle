@@ -1,0 +1,18 @@
+    {
+    "Math Environment": {
+        "prefix": "euh",
+        "body": [
+            "\\HM{$1}$0",
+        ],
+        "description": "Math"
+    },
+    "começar teorema": {
+        "prefix": "comteo",
+        "body": [
+            "\\begin{theorem}",
+            "\t$1",
+            "\\end{theorem}\n$0"
+        ],
+        "description": "começando teorema"
+    },
+    }
