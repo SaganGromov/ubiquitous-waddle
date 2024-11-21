@@ -1,0 +1,98 @@
+{
+    "Enumerate": {
+        "prefix": "enum",
+        "body": [
+            "\\begin{enumerate}",
+            "\t\\item $0",
+            "\\end{enumerate}"
+        ],
+        "description": "Enumerate"
+    },
+   "Proof Environment": {
+        "prefix": "demm",
+        "body": [
+            "\\begin{proof}",
+            "\t$1",
+            "\\end{proof}",
+            "$0"
+        ],
+        "description": "Begin a proof environment"
+    },
+    "Ricci Notation": {
+        "prefix": "ric",
+        "body": "\\Ric\\left($1 \\right) $0",
+        "description": "Ricci notation with placeholders"
+    },
+    
+    "Math Environment": {
+        "prefix": "rr",
+        "body": [
+            "\\[",
+            "$1",
+            "\\]",
+            "$0"
+        ],
+        "description": "Math"
+    }, 
+        "Ricci Notation in Math Mode": {
+        "prefix": "mric",
+        "body": "$\\Ric\\left(${1:#1} \\right) ${2:}$ $0",
+        "description": "Ricci notation with placeholders in math mode"
+    },
+    "subscript":{
+        "prefix": " se",
+        "body": "_{$1} $0"
+    },
+    "superscript": {
+        "prefix": " sw",
+        "body": "^{$1} $0"
+    }
+    "Inline Math Environment": {
+    "prefix": "ss",
+    "body": [
+        "$$1$ $0"
+    ],
+    "description": "Inline Math Environment"
+},
+    "Parenthesis": {
+        "prefix": "pp",
+         "body": "\\left( $1 \\right) $0",
+         "description": "parenthesis"
+    },
+    "Aligned environment inside math": {
+        "prefix": "aal",
+        "body": [
+            "\\begin{aligned}",
+            "$1",
+            "\\end{aligned}",
+            "$0"
+        ]
+    },
+    "lambda": {
+        "prefix": "ll",
+        "body":"\\lambda"
+    },
+    "Nabla": {
+        "prefix": "nn",
+        "body": "\\nabla_{$1} $2 $3"
+    },
+    "square": {
+        "prefix": "hsq",
+        "body": "h^2"
+    },
+    "frac": {
+        "prefix" : "ff",
+        "body": "\\frac{$1}{$2} $3"
+    },
+    "hess": {
+        "prefix": "hh",
+        "body": "\\left( \\nabla^2 f \\right) \\left( $1, $0 \\right)"
+    },
+    "Letter A": {
+        "prefix": "a",
+        "body": "a"
+    }
+
+    
+}
+
